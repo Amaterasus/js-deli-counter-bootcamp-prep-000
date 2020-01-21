@@ -3,6 +3,17 @@ function takeANumber(queue, name)
   queue.push(name)
   return `Welcome, ${name}. You are number ${queue.length} in line.`
 }
+var i = 0
+
+function takeANumber(queue)
+{
+  i++
+  queue.push(i)
+  return `Welcome you have ticket number ${i}`
+  
+}
+
+
 function nowServing(queue)
 {
   var name = queue[0]
