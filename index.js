@@ -10,7 +10,6 @@ function takeANumber(queue)
   i++
   queue.push(i)
   return `Welcome you have ticket number ${i}`
-  
 }
 
 
